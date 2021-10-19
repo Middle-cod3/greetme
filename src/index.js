@@ -25,6 +25,11 @@ if (hour >= 5 && hour < 12) {
   cssStyle.color="#adb4f0";
 
 }
+ else if (hour >= 20 && hour < 23) {
+  greeting = "Good Night..!";
+  cssStyle.color="#394557";
+
+}
 
 ReactDOM.render(
   <div>
