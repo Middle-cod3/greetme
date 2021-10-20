@@ -37,7 +37,7 @@ ReactDOM.render(
   <div>
   
   <h1 className="heading">
-    Hi Ayan, <span style={cssStyle}>{greeting} {tm}</span>
+    Hi Buddy😍, <span style={cssStyle}>{greeting}🌼</span><span className="tms">{tm}</span>
   </h1>
   
   </div>,

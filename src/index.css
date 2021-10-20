@@ -5,10 +5,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: url("https://images.unsplash.com/photo-1521295252262-a9732e0270d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1372&q=80") no-repeat fixed center ; 
+    background: url("https://images.pexels.com/photos/3433334/pexels-photo-3433334.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat fixed center/cover ; 
     /* z-index: -5; */
     font-family: 'Dancing Script', cursive;
-    /* backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px);
 }
 div{
     width: 100%;
@@ -25,8 +25,11 @@ div{
     text-transform: capitalize;
     font-size: 50px;
     vertical-align: middle;
-    color: #5bb9c7;
+    color: #fdf8e8;
 
     /* justify-content: center; */
 
+}
+.tms{
+    color: #dfdcd4;
 }
