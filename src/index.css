@@ -8,7 +8,7 @@
     background: url("https://images.unsplash.com/photo-1521295252262-a9732e0270d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1372&q=80") no-repeat fixed center ; 
     /* z-index: -5; */
     font-family: 'Dancing Script', cursive;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
 }
 div{
     width: 100%;
@@ -18,6 +18,8 @@ div{
     justify-content: center;
     z-index: 1;
 }
+
+
 .heading{
     text-align: center;
     text-transform: capitalize;

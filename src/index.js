@@ -13,11 +13,11 @@ if (hour >= 5 && hour < 12) {
   greeting = "Good Moring..!";
   cssStyle.color="Green";
 } else if (hour >= 12 && hour < 14) {
-  greeting = "Good Afternoon..!";
+  greeting = "Good Noon..!";
   cssStyle.color="#e0c73a";
 
 } else if (hour >= 14 && hour < 18) {
-  greeting = "Good Noon..!";
+  greeting = "Good Afternoon..!";
   cssStyle.color="#f2b527";
 
 } else if (hour >= 18 && hour < 20) {
@@ -29,12 +29,15 @@ if (hour >= 5 && hour < 12) {
   greeting = "Good Night..!";
   cssStyle.color="#394557";
 
-}
+};
+let tm=new Date().toLocaleTimeString();
+
 
 ReactDOM.render(
   <div>
+  
   <h1 className="heading">
-    Hi Ayan, <span style={cssStyle}>{greeting}</span>
+    Hi Ayan, <span style={cssStyle}>{greeting} {tm}</span>
   </h1>
   
   </div>,
